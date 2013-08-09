@@ -1,0 +1,335 @@
+
+
+			#wrapper {
+				position: relative;
+				margin: 0 auto;
+				height: 5000px;
+				width: 1220px;				
+				z-index: 0;
+			}
+
+			#header {
+				position: fixed;
+				margin: auto;
+				top: 0px;
+				height: 81px;
+				width: 100%;
+				background-image: url("../images/zigzag_banner_splice.png");
+				background-repeat: repeat;
+					background-repeat-x: repeat;
+					background-repeat-y: no-repeat;
+				z-index: 50;
+				display: block;
+			}
+
+			.container {
+				position: relative;
+				margin: auto;
+				width: 1020px;
+				padding: 0;
+				border: 0;
+				outline: 0;
+				font-size: 100%;
+				vertical-align: baseline;
+				display: block;
+			}
+
+			.navigation {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				outline: 0;
+				font-size: 100%;
+				vertical-align: baseline;
+			}
+
+			#logo_content {
+				position: absolute;
+				left: 0;
+				margin: 0;
+				top: 16px;
+				height: 51px;
+				width: 400px;
+				background-image: url("../images/star_name_logo.png");
+				background-repeat: no-repeat;
+				padding: 0;		
+				outline: none;
+			}
+
+
+			ul {
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				padding-top:33px;
+				padding-bottom:6px;
+				text-align:right;
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: .78em;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 1;
+				color: #eb665b;
+			}
+				
+			li {
+				display:inline;
+
+			}
+				
+			a:link,a:visited {
+				font-weight:bold;
+				color:#98968d;
+				background-color:#0d0d0d;
+				text-align:center;
+				padding-left:30px;
+				padding-right:30px;
+				padding-top:3px;
+				padding-bottom:3px;
+				text-decoration:none;
+				text-transform:uppercase;
+				-moz-border-radius: 4px;
+  				-webkit-border-radius: 4px;
+			}
+			
+			a:hover,a:active {
+				background-color:#eb665b;
+				color:#0d0d0d;
+				-moz-border-radius: 3px;
+  				-webkit-border-radius: 3px;
+			}
+
+			.intro h3{
+				margin: 0;
+				padding-top: 125px;
+				border: 0;
+				font: inherit;
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: 19.5px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 1.6;
+				color: #95938d;
+				margin-bottom: 3px;
+				letter-spacing: -.05em;
+				text-align: center;
+				text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);				
+			}
+
+			.intro h1{
+				margin: 0;
+				margin-bottom: 3px;
+				padding-top: 0;
+				border: 0;
+				font: inherit;
+				font-size: 100%;
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: 61px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: bold;
+				line-height: .8;
+				color: #404040;
+				letter-spacing: -.03em;
+				text-align: center;
+				text-shadow: 1px 1px 0 #c4c2bb, 2px 2px 0 #cfcdc6;				
+			}
+
+			.intro h2{
+				margin: 0;
+				margin-bottom: 3px;
+				padding-top: 0;
+				border: 0;
+				font: inherit;
+				font-size: 100%;
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: 48px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 1;
+				color: #e6645a;
+				text-align: center;
+				text-shadow: 1px 1px 0 #c4c2bb, 2px 2px 0 #cfcdc6;			
+			}
+
+			.intro h4{
+				margin: 0;
+				padding-top: 30px;
+				border: 0;
+				font: inherit;
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: 18px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 1.6;
+				color: #65635f;
+				margin-bottom: 3px;
+				text-align: center;
+				text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);	
+			}
+
+			h3 {
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: .7em;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 1;
+				color: #7d7b76;
+				margin-bottom: 3px;
+				text-align: center;
+				text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);				
+			}
+
+			#line_star{
+				position: relative;
+				left: 0;
+				top: 21px;
+				margin: auto;
+				height: 51px;
+				width: 1020px;
+				background-image: url("../images/line_star.png");
+				background-repeat: no-repeat;
+				padding-left: 25px;				
+				outline: none;	
+
+			}
+
+
+			.bg_white_top {
+				height: 500px;
+				width: 100%;
+				background-image: url("../images/bg_white_top.png");
+				background-repeat: repeat;
+					background-repeat-x: repeat;
+					background-repeat-y: repeat;
+				z-index: 45;
+				display: block;
+			}
+
+			.bg_gray_recentwork {
+				top: 500px;
+				height: 1200px;
+				width: 100%;
+				background-image: url("../images/bg_gray_recentwork.png");
+				background-repeat: repeat;
+					background-repeat-x: repeat;
+					background-repeat-y: repeat;		
+				display: block;
+				z-index: 45;		
+			}
+
+			#banner_recentwork {
+				left: 0;
+				margin: auto;
+				padding: 0;
+				position: relative;
+				top: 45px;
+				width: 1020px;
+				height: 100px;
+				outline: none;
+				background-image: url("../images/recentwork_banner.png");
+				background-repeat: no-repeat;
+			}
+
+			.bg_sunnygray_about {
+				top: 1700px;
+				height: 1200px;
+				width: 100%;
+				background-color: #f5f2e9;
+				z-index: 45;
+				display: block;
+			}
+
+			#banner_about {
+				position: relative;
+				left: 0;
+				margin: auto;
+				top: 45px;
+				height: 100px;
+				width: 1020px;
+				background-image: url("../images/about_banner.png");
+				background-repeat: no-repeat;
+				padding: 0;
+				outline: none;
+			}
+
+			.bg_darkgray_bottom {
+				height: 450px;
+				width: 100%;
+				background-color: #222222;
+				z-index: 45;
+				display: block;
+			}
+
+			.bottom_container_third {
+				position: relative;
+				float: left;
+				margin-bottom: 3px;
+				top: 60px;
+				height: 370px;
+				width: 336px;
+				/*border: 1px solid #ff00ff;*/
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: .7em;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 3;
+				text-align: center;
+				color: #84837b;
+				
+			}
+
+			.bottom_container_third_text{
+				position: relative;
+				float: center;
+				top: 10px;
+				margin-bottom: 3px;
+				height: 100%;
+				width: 100%;
+				padding-left: 42px;
+				font-family: "Thonburi"; src: url("../fonts/thonburi.otf");
+				font-size: 1.18em;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				line-height: 2.5;
+				color: #84837b;
+				text-align: left;
+				
+			}
+
+			#contactme_heading {
+				position: relative;
+				float: center;
+				height: 27px;
+				width: 100%;
+				background-image: url("../images/contactme_heading.png");
+				background-repeat: no-repeat;
+				/*border: 1px solid #12ff00;*/
+			}
+
+			#recentblogposts_heading {
+				position: relative;
+				float: center;
+				height: 27px;
+				width: 100%;
+				background-image: url("../images/recentblogposts_heading.png");
+				background-repeat: no-repeat;
+				/*border: 1px solid #12ff00;*/
+			}	
+
+				#recenttweets_heading {
+				position: relative;
+				float: center;
+				height: 27px;
+				width: 100%;
+				background-image: url("../images/recenttweets_heading.png");
+				background-repeat: no-repeat;
+				/*border: 1px solid #12ff00;*/
+			}
